@@ -1,11 +1,12 @@
 # Lombok
 Springboot Java REST app using Lombok
 
-To Build the application
+To build the application
 ```
 docker-compose build –no-cache
 ```
 To run the application
+
 ```
 docker-compose up
 ```
@@ -13,7 +14,7 @@ docker-compose up
 
 Run the following from Postman to test the API end points:
 
-``
+```
 POST localhost:8080/api/student/create
 ```
 with JSON Body
