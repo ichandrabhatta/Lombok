@@ -7,6 +7,8 @@ Build the artifact jar file
 ./mvnw clean package -DskipTests   
 ```
 
+note: skipping the tests as the test expects postgres database to be avaialble which we do not have up and running yet.
+
 Copy the the jar from target directory to the root of the application
 
 ```
