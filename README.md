@@ -17,7 +17,7 @@ cp /Users/{user}/IdeaProjects/Lombok/target/Lombok-0.0.1-SNAPSHOT.jar   /Users/{
 
 To build the application
 ```
-docker-compose build –no-cache
+docker-compose  build  --no-cache 
 ```
 To run the application
 
